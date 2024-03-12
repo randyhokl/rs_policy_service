@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.stub.rs.policy</groupId>
-	<artifactId>rs_policy_service_actions</artifactId>
+	<artifactId>rs_policy_service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rs_policy_service_actions</name>
+	<name>rs_policy_service</name>
 	<description>RS Cored Stub Service</description>
 	<properties>
 		<java.version>17</java.version>
