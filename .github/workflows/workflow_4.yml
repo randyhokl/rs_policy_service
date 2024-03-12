@@ -13,6 +13,7 @@ jobs:
         repository: randyhokl/rs_policy_service
         token: ${{ secrets.GITHUB_TOKEN }}
   display_name_job:
+    needs: setup_job
     runs-on: ubuntu-latest
     steps:
     - run: echo 'Welcome to GitHub Actions........'
