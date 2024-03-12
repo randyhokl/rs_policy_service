@@ -5,7 +5,7 @@ FROM openjdk:17
 MAINTAINER tuneprotect.com
 
 # Add the application's jar to the container
-COPY target/rs_policy_service_actions-0.0.1-SNAPSHOT.jar rs_policy_service_actions-0.0.1-SNAPSHOT.jar
+COPY target/rs_policy_service-0.0.1-SNAPSHOT.jar rs_policy_service-0.0.1-SNAPSHOT.jar
 
 # execute the application
-ENTRYPOINT ["java","-jar","rs_policy_service_actions-0.0.1-SNAPSHOT.jar"] 
+ENTRYPOINT ["java","-jar","rs_policy_service-0.0.1-SNAPSHOT.jar"] 
