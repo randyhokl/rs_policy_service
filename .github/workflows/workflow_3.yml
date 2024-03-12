@@ -1,11 +1,12 @@
 # Docker provides a set of official GitHub Actions for you to use in your workflows. These official actions are reusable, easy-to-use components for building, annotating, and pushing images.
 
 name: workflow_3
-on:
+on:  
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [ main ]  
+  
 jobs:
   buil_push_docker_image:
     runs-on: ubuntu-latest
