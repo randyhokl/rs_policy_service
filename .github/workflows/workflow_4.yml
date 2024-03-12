@@ -10,7 +10,7 @@ jobs:
     - name: Check Out
       uses: actions/checkout@v4
       with:
-        repository: TuneDemo/rs_policy_service_actions
+        repository: randyhokl/rs_policy
         token: ${{ secrets.GITHUB_TOKEN }}
   display_name_job:
     runs-on: ubuntu-latest
