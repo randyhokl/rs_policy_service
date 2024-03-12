@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: rs_policy_service
-        image: tags: ${{ secrets.DOCKERHUB_USERNAME }}/rs_policy_service:${{ github.sha }} , ${{ secrets.DOCKERHUB_USERNAME }}/rs_policy_service:latest
+        image: indikak2005/rs_policy_service_actions:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 9090
