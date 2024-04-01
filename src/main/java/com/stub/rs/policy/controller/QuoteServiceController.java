@@ -31,7 +31,7 @@ public class QuoteServiceController {
 
 	@PostMapping(path = "/")
 	public String createQuote(@RequestBody Quotes quoteRequest) {
-		return "success";
+		return "fail";
 	}	
 	
 	
